@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+body {
+	font: 16px/1.5 Verdana, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	line-height: 1.2;
+	margin: 0.5em 0; /*1st-top&bottom 2nd left-right */
+
+	/*border: solid #f00;
+	border-width: 10px 5px;*/
+}
+
+h1 {font-size: 2.0em; line-height: 1.1;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+
+
+p {
+	padding-bottom: 1.5em;
+}
+
+ul, ol{
+	padding-top: 0,5em;
+	padding-left: 2em;
+}
+
+p + ul { padding-top: 0; }
+
+ul li {list-style-type: circle;}
+ul li ul li {list-style-type: square;}
+ul li ul li ul li {list-style-type: disc;}
+
+ol li, ol li { list-style-type: decimal;}
+
+ol li ol li ol li {list-style-type: upper-roman;}
+
+blockquote {
+	background-color: #ccc;
+	margin: 0px 0px 20px 20px; /*top right bottom left*/
+	padding-top: 20px;
+	border: 1px solid #000;
+	border-left-width: 10px;
+	font-style: italic;
+	font-family: Georgia, Arial, sans-serif; 
+}
+
+blockquote {
+	color: #000;
+	border-color: #000;
+}
+
+blockquote p:last-child {
+	padding: 0;
+}
+
+.abbr {
+	letter-spacing: 0.25em; 
+}
+
+.amp {
+	font-family: "berkshire swash", baskerville, Verdana, sans-serif;
+}
+
+#box1 {
+	width: 30em;
+}
+

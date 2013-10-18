@@ -1,0 +1,40 @@
+body {
+	font: 16px/1.5 Verdana, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	line-height: 1.2;
+	margin: 0.5em 0; /*1st-top&bottom 2nd left-right */
+
+	/*border: solid #f00;
+	border-width: 10px 5px;*/
+}
+
+h1 {font-size: 2.0em; line-height: 1.1;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em; font-weight: bold;}
+
+p {
+	padding-bottom: 1.5em;
+}
+
+ul, ol{
+	padding-top: 0,5em;
+	padding-left: 2em;
+}
+
+p + ul { padding-top: 0; }
+
+ul li {list-style-type: circle;}
+ul li ul li {list-style-type: square;}
+ul li ul li ul li {list-style-type: disc;}
+
+ol li, ul ol li { list-style-type: decimal;}
+ol li ol li {list-style-type: lower-roman;}
+
+ol li ol li ol li {list-style-type: upper-roman;}

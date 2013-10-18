@@ -1,0 +1,53 @@
+body {
+	background: #EEE;
+	font: 16px/1.5 Verdana, Arial, sans-serif;
+	padding: 40px;
+}
+
+.content {
+	border: 1px solid #000;
+	width: 230px;
+	height: 250px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.content a {
+	font-size: 13px;
+	padding-top: 0px;
+	margin: 0;
+}
+
+.content h4 {
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+.content ol li {
+	padding-top: 0px;
+	margin: 0;
+}
+
+h6 {
+	padding-top: 0;
+	margin-top: 0;
+	font-style: italic;
+	font-weight: none;
+}
+
+.h3 {
+	border-bottom: 1px solid #000;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: Verdana, Arial, sans-serif;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.lastpar {
+	border: 1px solid #000;
+	width: auto;
+	height: 30px;
+}

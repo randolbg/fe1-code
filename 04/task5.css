@@ -1,0 +1,18 @@
+#thead {
+	background-color: #cb7b7b;
+	padding: 3px;
+}
+
+#tfooter {
+	background-color: #7bb9cb;
+}
+
+td, th {
+	padding: 40px;
+	font-family: Elephant, Induction, Arial, sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+	text-shadow: 1px -1px 19px #333;
+	border: 1px solid #1a8118;
+}
+
