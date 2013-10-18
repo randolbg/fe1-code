@@ -1,9 +1,3 @@
-body {
-	background: #EEE;
-	font: 16px/1.5 Verdana, Arial, sans-serif;
-	padding: 40px;
-}
-
 .content {
 	border: 1px solid #000;
 	width: 230px;
@@ -28,13 +22,6 @@ body {
 .content ol li {
 	padding-top: 0;
 	margin: 0;
-}
-
-h6 {
-	padding-top: 0;
-	margin-top: 0;
-	font-style: italic;
-	font-weight: none;
 }
 
 .h3 {
