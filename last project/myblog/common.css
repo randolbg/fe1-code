@@ -1,0 +1,246 @@
+@import url("reset.css");
+@import url("tipography.css");
+@import url("navigation.css");
+
+#container {width: 100%; min-width: 700px; overflow: hidden; }
+
+#header {width: 100%;height: 90px; margin: 0; padding: 20px 20px; background-color: #272727; }
+#header .menu { width: 65%;  position: relative; top: 45%; left: 16%;  }
+
+/*---main---*/
+
+#main {width: 70%; margin: 5% 17%; padding: 0; overflow: hidden; }
+
+#main .primary {display: block; float: left; width: 70%; }
+
+#main .inner {display: block; float: left; width: 47%; }
+#main .inner-pic {display: block; float: left; width: 47%; }
+#main .inner-pic img {width: 100%; height: 100%  }
+#main .inner .sitemap {width: 100%; }
+
+/*---sidebar---*/
+
+#main .rightsidebar {display: block; float: left; width: 20%; margin-left: 3%; }
+#main .rightsidebar  form {width: 100%; }
+#main .rightsidebar  label { padding-bottom: 5px; margin: 5px 1px 0; }
+#main .rightsidebar  input, 
+form textarea { width: 90%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+
+#main .rightsidebar  input:focus, form textarea:focus { }
+
+#main .rightsidebar  #btnsearch,
+#main .leftsidebar  #btnsearch {width: 100px; margin: 10px 0 10px 0; }
+
+#main .rightsidebar  #login,
+#main .leftsidebar  #login  {width: 100px;margin-top: 10px; }
+
+#main .rightsidebar  #btnsubscr,
+#main .leftsidebar  #btnsubscr  {width: 100px;margin: 10px 0; }
+
+#main .rightsidebar  fieldset, 
+#main .leftsidebar  fieldset  {padding: 15px; margin-bottom: 20px; }
+
+#main .rightsidebar  fieldset p:last-child, 
+#main .leftsidebar  fieldset p:last-child  { padding-bottom: 0; }
+
+#main .rightsidebar  fieldset legend, 
+#main .leftsidebar  fieldset legend  {padding: 0 ; }
+
+#main .rightsidebar ul {margin-bottom: 5%;} 
+#main .rightsidebar li {list-style-type: none; margin-bottom: 5%;}
+
+#main .rightsidebar .blogbanner img, 
+#main .leftsidebar .blogbanner img  {width: 100%; /*height: 100%*/; }
+#main .rightsidebar .tag-cloud, 
+#main .leftsidebar .tag-cloud {border: 1px solid #ccc; }
+#main .rightsidebar .archive {display: block; margin-left: 1%;}
+.category {margin-bottom: 5%;}
+
+#main .leftsidebar {display: block; float: left; width: 20%; margin-right: 3%; }
+/*#main .leftsidebar h3,*/ #main .leftsidebar ul {margin-left: 2%;}
+#main .leftsidebar  form {width: 100%; }
+#main .leftsidebar  label { padding-bottom: 5px; margin: 5px 1px 0; }
+#main .leftsidebar  input, form textarea { width: 90%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+#main .leftsidebar  input:focus, form textarea:focus {border-color: #f00; }
+
+#main .leftsidebar .archive {display: block; margin-right: 1%;}
+
+#main .leftsidebar ul {/* list-style-type: none;*/ text-align: justify; }
+#main .leftsidebar ul li strong, 
+#main .leftsidebar ul li span {display: block; padding: 0 20px;}
+#main .leftsidebar ul li strong {padding-top: 20px;}
+#main .leftsidebar ul li span.copy {padding-bottom: 20px; }
+#main .leftsidebar ul li span.meta {padding-bottom: 10px; }
+
+/*--------*/
+
+#main .post {margin-bottom: 5%;}
+#main .posted {width: 100%; margin-left: 0.5% ;border-bottom: 1px solid #ccc;}
+#main article {border: 1px solid #CCC;} 
+#main .entry-meta {padding: 2%;}
+#main .entry-meta p {text-align: justify;}
+
+#main .entry-meta .time,  
+#main .entry-meta .by, 
+#main .entry-meta .author, 
+#main .entry-meta .section,
+#main .entry-meta ul {margin-left: 2%;}
+
+#main .entry-meta .author a {color: #0a8cdd;}
+
+#main .entry-meta .imgleft, 
+#main .entry-meta .imgright {float: left; width: 30%; margin: 0 2%;}
+#main .entry-meta .imgright {float: right;}
+#main .entry-meta .comment { background-color: #ccc; margin-top: 3%; padding: 0 0.5%;}
+#main .entry-meta .comments { margin-left: 1%; text-decoration: underline;}
+
+/*-----tag-cloud-----*/
+
+.tag-cloud {padding: 5%; }
+
+/*--register--*/
+
+#main .register {margin: 2%; padding: 1%; text-align: center; background-color: #f0842f; border: 1px solid #000;}
+#main .registerform {float: left; width: 100%;}
+#main .registerform label{display: block; float: left;}, .registerform input 
+#main .registerform label { padding-bottom: 0.25em; }
+#main .registerform input, 
+.registerform  textarea { width: 100%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+
+#main .registerform  .registerform input:focus, 
+.registerform  textarea:focus {border-color: #0a8cdd; }
+
+#main .registerform fieldset {padding: 1.5em; margin-bottom: 1.5em; border: 1px solid #000;}
+#main .registerform fieldset p:last-child { padding-bottom: 0;}
+#main .registerform fieldset legend {padding: 0 0.5em;}
+#main .registerform p {overflow: hidden;}
+
+#main .registerform label, .registerform input, 
+.registerform textarea{float: left;}
+
+#main .registerform input, 
+.registerform textarea {width: 60%; margin-bottom: 2%}
+
+#main .registerform label {width: 27.5%; margin-right: 2.5%; text-align: right;}
+
+#main .registerform .list-checkbox { margin-left: 35%; }
+/*#main .registerform .list-checkbox:after { content: ""; clear: both; display: table; }*/
+/*#main .registerform .list-checkbox li { display: block; width: 50%; float: left; list-style: none outside; overflow: hidden; padding-bottom: 0.5em; }*/
+#main .registerform .list-checkbox li { 
+	display: inline-block; *display: inline; *zoom: 1; 
+	width: 50%; 
+	overflow: hidden; 
+	list-style: none outside; 
+	padding-bottom: 0.5em; }
+
+#main .registerform .list-checkbox li input { width: 5%; margin-top: 0.32em; margin-right: 10%;  }
+#main .registerform .list-checkbox li label { width: 15%; text-align: left;  }
+
+/*#main .picture-page {margin-right: 15%;}*/
+
+/*---abaoutme---*/
+.preview {display: block; margin: 0.5%; overflow: hidden; }
+.preview .picture {float: left; width: 25%; padding: 5px 5px 0 5px; }
+.preview .picture img { width: 100%; height: 100%;}
+.preview .leftsidebar {float: right; width: 20%; padding: 10px; }
+.preview .leftsidebar ul {display: block; overflow: hidden;list-style: none; }
+.preview .leftsidebar ul li {float: left; margin: 5px 10px; }
+
+.articles {width: 65%; margin: 0 17%; height: 250px; overflow: hidden;}
+.articles ul {overflow: hidden; margin-left: 3%; }
+.articles ul li {display: block; width: 18%; float: left;margin: 1% 6%; border-left: 1px solid #CCC;}
+.articles ul li:last-child {width: 27%; }
+.articles ul li:first-child {border: none;}
+.articles ul li br {display: none;}
+.articles ul li strong, 
+.articles ul li span {display: block; padding: 0 20px;}
+.articles ul li strong {padding-bottom: 20px;}
+.articles ul li span.copy {padding-bottom: 20px; color: #000;}
+.articles ul li span.meta {color: #999; padding: 10px;}
+.articles ul li form {overflow: hidden;padding-left: 20px; }
+.articles ul li form input {width: 90%; margin-bottom: 10px;}
+.articles ul li form textarea { width: 100%; height: 80px;}
+.articles ul li form textarea:focus {border-color: #92DD0F;}
+.articles ul li form input.submit { float: right; width: 40%; }	
+
+#regbuttons {display: block; width: 100%; overflow: hidden;}
+#regbuttons #apply {float: left; width: 30% ;background-color: #0F0; }
+#regbuttons #rejection {float: right; width: 30%; background-color: #F00;}
+
+/*---reg-done--*/
+
+.done {margin: 0 11%;}
+.done p {margin: 2% 22%;}
+
+/*----new-comment----*/
+.new-comment {overflow: hidden;}
+.new-comment form {width: 100%;}
+.new-comment label{display: block; }
+.new-comment label { padding-bottom: 0.25em; }
+.new-comment input{ width: 100%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+
+.new-comment textarea:focus, 
+label:focus,  
+input:focus {border-color: #0a8cdd; }
+
+.new-comment fieldset {padding: 1.5em; margin-bottom: 1.5em; border: 1px solid #000;}
+.new-comment fieldset p:last-child { padding-bottom: 0;}
+.new-comment fieldset {padding: 2%;}
+
+.new-comment p {overflow: hidden;}
+.new-comment input {width: 60%;}
+.new-comment label {width: 25%; margin-right: 2.5%; text-align: left;}
+.new-comment textarea {width: 98%; height: 200px; margin-right: 2%;}
+
+.required {margin: 2% 0;}
+
+#submit {width: 20%; margin: 2% 2%; float: right;}
+
+/*----gallery----*/
+
+.gallery {  width: 100%;  }
+.gallery ul {list-style: none; overflow: hidden;}
+.gallery li { display: block;  float: left;  width: 80px ; height: 80px; /*width: 185px;*/ margin: 10px  ; }
+.gallery li a { display: block; }
+.gallery li a img { width: 100%; min-width: 40%; border: 1px solid #000;}
+
+#blogmain {width: 65%; overflow: hidden; margin: 5%  17%; padding: 0; border: 1px solid #ccc;}
+#blogmain .inner {display: block; margin: 0.5%;  }
+#blogmain .inner .picture {float: left; width:%; padding: 5px 5px 0 5px;}
+#blogmain .inner .picture img { width: 100%; }
+#blogmain .inner .right {float: left; width: 60%; padding: 10px ; }
+#blogmain .inner .right img { width: 25%; float: left; margin: 2% }
+#blogmain .inner .right .content {}
+
+#blogmain .inner .left {float: right; width: 30%; padding: 10px;}
+#blogmain .inner .left ul {display: block; overflow: hidden;list-style: none;}
+#blogmain .inner .left ul li {float: left; margin: 5px}
+
+.sitemap-list {margin: 5% 5%;}
+.sitemap-list ul {padding-left: 1em;}
+.sitemap-list ul li ul{padding-left: 1.5em;}
+
+.user-comment { }
+.user-comment ul { list-style-type: none;  }
+.user-comment ul li strong, 
+.user-comment ul li span {display: block; padding: 0 20px;}
+.user-comment ul li strong {padding-top: 20px;}
+.user-comment ul li span.copy {padding-bottom: 20px; color: #999;}
+.user-comment ul li span.meta {padding-bottom: 10px; color: #999;}
+
+.post-picture {overflow: hidden;}
+.post-picture ul {list-style-type: none;}
+.post-picture ul li {float: left; margin: 2% 2%; }
+.post-picture ul li img {width: 100px; height: 60px;}
+
+.catalog-box {display: block;overflow: hidden; width: 100%; border: 1px solid #ccc; margin-bottom: 2%;}
+.catalog-box .boxpicture img {width: 30%; min-width: 15%; height: 30% ;float: left; margin: 2%; }
+.catalog-box .boxtext {float: right; width: 60%;}
+
+/*------footer------*/
+
+.footer {display: block; width: 65%; height: 5%; position: relative; left: 17%; border-top: 1px solid #CCC;}
+.footer span {float: left; margin:10px 50px;}
+.footer ul {display: block; position: absolute; left: 85%; list-style: none;}
+.footer ul li {float: left; margin: 10px 5px;}
+.footer .bottom {padding-bottom: 10px;}

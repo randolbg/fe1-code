@@ -1,0 +1,257 @@
+@import url("reset.css");
+@import url("tipography.css");
+@import url("navigation.css");
+
+
+#container {width: 100%; min-width: 850px;margin: 0 auto; overflow: hidden; }
+
+#header {width: 100%;height: 90px; background-color: #272727; }
+#header h1 {padding: 20px 20px;}
+#header .menu { width: 100%; /* position: relative; top: 45%; left: 16%;*/ /**/  }
+#header .menu .navmenu {margin-left: 17%;}
+/*---main---*/
+
+#main {width: 70%; margin: 5% 17%; padding: 0; overflow: hidden; }
+
+#main .primary { float: left; width: 70%; }
+
+#main .inner { float: left; width: 47%; }
+#main .inner-pic { float: left; width: 47%; }
+#main .inner-pic img {width: 100%; height: 100% ; min-width: 40%; }
+#main .inner .sitemap {width: 100%; }
+
+#blogmain {width: 65%; margin: 5% 17%; overflow: hidden; border: 1px solid #ccc;}
+#blogmain .inner {display: block; margin: 0%;  }
+#blogmain .inner .right {float: left; width: 60%; padding: 10px ; }
+#blogmain .inner .right img { width: 25%; float: left; margin: 2% }
+
+#blogmain .inner .left {float: right; width: 30%; padding: 10px;}
+#blogmain .inner .left ul {display: block; overflow: hidden;list-style: none;}
+#blogmain .inner .left ul li {float: left; margin: 5px}
+
+/*---sidebar---*/
+#main .rightsidebar {float: left; width: 20%; min-width: 16%; margin-left: 3%; }
+#main .rightsidebar form {width: 100%; }
+#main .rightsidebar label { padding-bottom: 5px; margin: 5px 1px 0; }
+#main .rightsidebar  input, 
+form textarea { width: 90%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+
+
+#main .rightsidebar input:focus, form textarea:focus { }
+
+#main .rightsidebar #btnsearch,
+#main .leftsidebar #btnsearch {width: 100px; margin: 10px 0 10px 0; }
+
+#main .rightsidebar #login,
+#main .leftsidebar #login  {width: 100px;margin-top: 10px; }
+
+#main .rightsidebar #btnsubscr,
+#main .leftsidebar #btnsubscr  {width: 100px;margin: 10px 0; }
+
+#main .rightsidebar fieldset, 
+#main .leftsidebar fieldset  {padding: 15px; margin-bottom: 20px; }
+
+#main .rightsidebar fieldset p:last-child, 
+#main .leftsidebar fieldset p:last-child  { padding-bottom: 0; }
+
+#main .rightsidebar fieldset legend, 
+#main .leftsidebar fieldset legend  {padding: 0 ; }
+
+#main .rightsidebar ul {margin-bottom: 5%;} 
+#main .rightsidebar li {list-style-type: none; margin-bottom: 5%;}
+
+#main .rightsidebar .blogbanner img, 
+#main .leftsidebar .blogbanner img  {width: 100%; min-width: 135px; }
+
+#main .rightsidebar .cloud, 
+#main .leftsidebar .cloud {width: 100%; border: 1px solid #ccc; margin-top: 15px; }
+#main .rightsidebar .tag-cloud, 
+#main .leftsidebar .tag-cloud a {padding: 5px; margin-left: 5px;}
+#main .rightsidebar .archive {display: block; margin-left: 1%;}
+.category {margin-bottom: 5%;}
+
+/*--------------*/ 
+
+#main .leftsidebar { float: left; width: 20%; min-width: 16%; margin-right: 3%; }
+#main .leftsidebar ul {width: 100%; margin-left: 2%;}
+#main .leftsidebar form {width: 100%; }
+#main .leftsidebar label { padding-bottom: 5px; margin: 5px 1px 0; }
+#main .leftsidebar input, form textarea { width: 90%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+#main .leftsidebar input:focus, form textarea:focus {border-color: #f00; }
+
+#main .leftsidebar .archive {display: block; margin-right: 1%;}
+
+#main .leftsidebar ul {/* list-style-type: none;*/ text-align: justify; }
+#main .leftsidebar ul li strong, 
+#main .leftsidebar ul li span {display: block; padding: 0 20px;}
+#main .leftsidebar ul li strong {padding-top: 20px;}
+#main .leftsidebar ul li span.copy {padding-bottom: 20px; }
+#main .leftsidebar ul li span.meta {padding-bottom: 10px; }
+
+/*--------*/
+
+#main .post {margin-bottom: 5%;}
+#main .posted {width: 100%; margin-left: 0.5% ;border-bottom: 1px solid #ccc;}
+#main article {border: 1px solid #CCC;} 
+#main .entry-meta {padding: 2%;}
+#main .entry-meta p {text-align: justify;}
+
+#main .entry-meta .time,  
+#main .entry-meta .by, 
+#main .entry-meta .author, 
+#main .entry-meta .section,
+#main .entry-meta ul {margin-left: 2%;}
+
+#main .entry-meta .author a {color: #0a8cdd;}
+
+#main .entry-meta .imgleft, 
+#main .entry-meta .imgright {float: left; width: 30%; margin: 0 2%;}
+#main .entry-meta .imgright {float: right;}
+#main .entry-meta .comment { background-color: #ccc; margin-top: 3%; padding: 0 0.5%;}
+#main .entry-meta .comments { margin-left: 1%; text-decoration: underline;}
+
+/*-----tag-cloud-----*/
+
+.tag-cloud {padding: 5%; }
+
+/*--register--*/
+
+#main .register {width: 90%; min-width: 128px; margin: 0 auto ; margin-bottom: 13px; padding: 1%; text-align: center; background-color: #f0842f; border: 1px solid #000;}
+
+#main .reg-form-left {display: block; overflow: hidden; width: 100%;}
+#main .reg-form-left legend {background-color: #00e9ff; padding: 3px;}
+#main .reg-form-left .left,
+#main .reg-form-left .right { float: left; width: 40%; text-align: left;margin: 1%;}
+#main .reg-form-left .right {display:block; overflow: hidden; }
+
+#main .sex { float: left; overflow: hidden; width: 25%; padding-left: 8px;}
+
+#main .sex-radio { float: right; width: 65%; }
+#main .reg-form-left .right .left-radio {display: block;  width: 45%;min-width: ; display: inline-block; *display: inline; *zoom: 1; }
+#main .reg-form-left .right .right-radio { float: left; width: 45%; display: inline-block; *display: inline; *zoom: 1; }
+
+#main .reg-form-left .right .left-radio label, 
+#main .reg-form-left .right .right-radio label,
+#main .reg-form-left .right .left-radio input,
+#main .reg-form-left .right .right-radio input {display: block; float: right; overflow: hidden; margin-left: 8px;}
+
+#main .reg-form-left .left label, #main .reg-form-left .right label {margin-left: 5%;}
+#main .reg-form-left .left input, #main .reg-form-left .right input { float: right;}
+#main .reg-form-left .left select {display: inline;overflow: hidden; float: right; margin-left: 1%;}
+#main .reg-form-left .form-footer {display: block; width: 88.5%;  overflow: hidden; padding: 1% 1%;}
+#main .reg-form-left .form-footer textarea {height: 100px; margin-left: 10px;}
+#main .reg-form-left .form-footer label {margin-left: 10px;}
+#main .reg-form-left  fieldset, 
+#main .form-footer fieldset,
+#main .registerform  fieldset  {overflow: hidden; padding: 15px; margin-bottom: 15px; }
+
+#main .registerform .left label {margin-left: 5%;}
+#main .registerform legend {background-color: #00e9ff; padding: 3px;}
+#main .registerform .list-checkbox {overflow: hidden; margin-left: 15%; }
+#main .registerform .list-checkbox li { float: left;
+	display: inline-block; *display: inline; *zoom: 1; 
+	width: 50%; 
+	overflow: hidden; 
+	list-style: none outside; 
+	padding-bottom: 0.5em; }
+
+#main .registerform .list-checkbox li input { width: 5%; margin-top: 0.32em; margin-right: 10%;  }
+#main .registerform .list-checkbox li label { width: 15%; text-align: left;  }
+
+/*#main .picture-page {margin-right: 15%;}*/
+
+/*---abaoutme---*/
+.preview {display: block; margin: 0.5%; overflow: hidden; }
+.preview .picture {float: left; width: 25%; padding: 5px 5px 0 5px; }
+.preview .picture img { width: 100%; height: 100%;}
+.preview .leftsidebar {float: right; width: 20%; padding: 10px; }
+.preview .leftsidebar ul {display: block; overflow: hidden;list-style: none; }
+.preview .leftsidebar ul li {float: left; margin: 5px 10px; }
+
+.articles {width: 65%; margin: 0 17%; height: 250px; overflow: hidden;}
+.articles ul {overflow: hidden; margin-left: 3%; }
+.articles ul li {display: block; width: 18%; float: left;margin: 1% 6%; border-left: 1px solid #CCC;}
+.articles ul li:last-child {width: 27%; }
+.articles ul li:first-child {border: none;}
+.articles ul li br {display: none;}
+.articles ul li strong, 
+.articles ul li span {display: block; padding: 0 20px;}
+.articles ul li strong {padding-bottom: 20px;}
+.articles ul li span.copy {padding-bottom: 20px; color: #000;}
+.articles ul li span.meta {color: #999; padding: 10px;}
+.articles ul li form {overflow: hidden;padding-left: 20px; }
+.articles ul li form input {width: 90%; margin-bottom: 10px;}
+.articles ul li form textarea { width: 100%; height: 80px;}
+.articles ul li form textarea:focus {border-color: #92DD0F;}
+.articles ul li form input.submit { float: right; width: 40%; }	
+
+#regbuttons {display: block; width: 100%; overflow: hidden; margin-top: 1%; }
+#regbuttons #apply {float: left; margin: 1% 2% 3% 2%; padding: 1%; text-align: center; border: 1px solid #000; width: 30% ;height: 5% ;background-color: #0F0; }
+#regbuttons #rejection {float: right;margin: 1% 2% 3% 2%; padding: 1%; text-align: center; border: 1px solid #000; width: 30% ;height: 5% ;background-color: #F00;}
+
+/*---reg-done--*/
+
+.done {margin: 0 auto;}
+.done p {margin: 0 auto;}
+
+/*----new-comment----*/
+.new-comment {overflow: hidden;}
+.new-comment form {width: 100%;}
+.new-comment label{display: block; }
+.new-comment label { padding-bottom: 0.25em; }
+.new-comment input{ width: 100%; padding: 5px 8px; outline: none; box-sizing: border-box; border: 1px solid #666;}
+
+.new-comment textarea:focus, 
+label:focus,  
+input:focus {border-color: #0a8cdd; }
+
+.new-comment fieldset {padding: 1.5em; margin-bottom: 1.5em; border: 1px solid #000;}
+.new-comment fieldset p:last-child { padding-bottom: 0;}
+.new-comment fieldset {padding: 2%;}
+
+.new-comment p {overflow: hidden;}
+.new-comment input {width: 60%;}
+.new-comment label {width: 25%; margin-right: 2.5%; text-align: left;}
+.new-comment textarea {width: 98%; height: 200px; margin-right: 2%;}
+
+.required {margin: 2% 0;}
+
+#submit {width: 20%; margin: 2% 2%; float: right;}
+
+/*----gallery----*/
+
+.gallery {  width: 100%;  }
+.gallery ul {list-style: none; overflow: hidden;}
+.gallery li { float: left;  width: 80px ; height: 80px; /*width: 185px;*/ margin: 10px  ; }
+.gallery li a { display: block; }
+.gallery li a img { width: 100%; min-width: 40%; height: 60px; border: 1px solid #000;}
+
+
+.sitemap-list {margin: 5% 5%;}
+.sitemap-list ul {padding-left: 1em;}
+.sitemap-list ul li ul{padding-left: 1.5em;}
+
+.user-comment { }
+.user-comment ul { list-style-type: none;  }
+.user-comment ul li strong, 
+.user-comment ul li span {display: block; padding: 0 20px;}
+.user-comment ul li strong {padding-top: 20px;}
+.user-comment ul li span.copy {padding-bottom: 20px; color: #999;}
+.user-comment ul li span.meta {padding-bottom: 10px; color: #999;}
+
+.post-picture {overflow: hidden;}
+.post-picture ul {list-style-type: none;}
+.post-picture ul li {float: left; margin: 2% 2%; }
+.post-picture ul li img {width: 100px; height: 60px;}
+
+.catalog-box {display: block;overflow: hidden; width: 100%; border: 1px solid #ccc; margin-bottom: 2%;}
+.catalog-box .boxpicture img {width: 30%; min-width: 15%; height: 30% ;float: left; margin: 2%; }
+.catalog-box .boxpicture p {float: right; width: 60%;padding: 2%}
+
+/*------footer------*/
+
+.footer {display: block; width: 65%; height: 5%; position: relative; left: 17%; border-top: 1px solid #CCC;}
+.footer span {float: left; margin:10px 50px;}
+.footer ul {display: block; position: absolute; right: 5%; list-style: none;}
+.footer ul li {float: left; margin: 10px 5px;}
+.footer .bottom {padding-bottom: 10px;}

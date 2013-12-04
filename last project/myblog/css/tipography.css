@@ -1,0 +1,87 @@
+body {font: 16px/1.2  Verdana sans-serif;}
+
+h1 {position: relative; top: 10%; left: 20%; font-weight: bold;
+		font-size: 2em;
+		line-height:  1.2;
+		font-family:  Verdana sans-serif;
+		 color: #92DD0F;}
+
+h1 .family {font-weight: bold;
+		font-size: 36px;
+		line-height:  1.2;
+		font-family:  Verdana sans-serif;
+		 color: #FFF;}
+
+h1 .dscr {margin: 0 10px; font-size: 26px;
+		font-weight: normal;
+		line-height:  1.2;
+		font-family:  Verdana sans-serif;
+		 color: #fff;}
+
+h2 	{font-size: 2.5em;
+		font-weight: normal;
+		line-height:  1.2;
+		font-family:  Verdana sans-serif;
+		 color: #92DD0F;}
+
+h2 a {color: #272727;}
+
+.h1 {font-weight: bold;
+		font-size: 26px;
+		line-height:  1.2;
+		font-family:  Verdana sans-serif;
+		 color: #000;}
+
+h3  {font-size: 1.5em;font-weight: bold; color: #92DD0F; margin: 10px 0;}
+h3 > a {font-size: 1em;font-weight: bold; color: #92DD0F; margin: 10px 0;}
+
+h3 p {font-size: 16px;margin-bottom: 10px;}
+
+p {font: 1em/1.2 verdana sans-serif; color: #000; text-align: justify;}
+
+nav {font: 1em/1.2 Verdana sans-serif; color: #262626; }
+nav a {text-decoration: none; color: #000;}
+
+a {text-decoration: none; color: #000;}
+
+.post p,
+ .content p {text-indent: 1.5em;}
+
+.posted {font: 0.8em/1.2 verdana sans-serif; color: #000; margin-bottom: 2%;}
+
+.articles p, 
+.comment{font: 1em/1.2 Verdana sans-serif;}
+
+.tag-cloud a.taglink1 {font: 1em/1.2 verdana sans-serif; color: #CCC;font-weight: bold;}
+.tag-cloud a.taglink2 {font: 1.1em/1.2 verdana sans-serif; color: #F00;}
+.tag-cloud a.taglink3 {font: 1.5em/1.2 verdana sans-serif; color: #F0F;}
+.tag-cloud a.taglink4 {font: 1.3em/1.2 verdana sans-serif; color: #FF0;font-weight: bold;}
+.tag-cloud a.taglink5 {font: 1em/1.2 verdana sans-serif; color: #996;}
+.tag-cloud a.taglink6 {font: 1.4em/1.2 verdana sans-serif; color: #099;}
+.tag-cloud a.taglink7 {font: 1em/1.2 verdana sans-serif; color: #F00;}
+.tag-cloud a.taglink8 {font: 1.2em/1.2 verdana sans-serif; color: #CCC;font-weight: bold;}
+.tag-cloud a.taglink9 {font: 1.4em/1.2 verdana sans-serif; color: #FF0;}
+.tag-cloud a.taglink10 {font: 1.1em/1.2 verdana sans-serif; color: #f50;}
+.tag-cloud a.taglink11 {font: 1em/1.2 verdana sans-serif; color: #000;font-weight: bold;}
+
+#main .entry-meta .time, #main .entry-meta .section  {font: 1.2em/1.2 Verdana sans-serif; color: #F00;}
+#main .entry-meta .author {font: 1.2em/1.2 Verdana sans-serif; }
+
+#main .leftsidebar ul li span.copy, #main .leftsidebar ul li span.meta  {color: #999;}
+
+/*-----------------Register---------------------*/
+
+.register p {padding-bottom: 1.5em; }
+
+.rightsidebar {}
+#main .rightsidebar ul {text-align: justify;}
+
+#regbuttons {text-align: center; font: 1.2em/1.2 Verdana sans-serif; font-weight: bold;}
+
+.required {font: 0.8em/1.2 verdana sans-serif;font-style: italic; color: #F00;}
+.requiredtext {font: 0.8em/1.2 verdana sans-serif;font-style: italic; color: #000;}
+
+/*----------------------------------------------*/
+
+.done ,
+.done p {text-align: center;}
